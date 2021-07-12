@@ -46,7 +46,7 @@ const ListingCustomers=(({customers})=>{
         <div >
             <div className='row'>
                 <h2 className='col-md-8'>Listing Customers</h2>
-                <input className='col-md-4'  type="text" value={text} onChange={handletext} placeholder='Search by name' />
+                <input className='col-md-4'  type="text" value={text} onChange={handletext} placeholder='search by name' />
             </div>
         <br/>
             <div style={{overflow:'scroll', height:'800px',background:'white'}}>
